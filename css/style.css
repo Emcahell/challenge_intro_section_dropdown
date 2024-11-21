@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+    /* COLORS */
+    --Almost-White: rgb(250, 250, 250);
+    --Medium-Gray: rgb(105, 105, 105);
+    --Almost-Black: rgb(20, 20, 20);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+    background: var(--Almost-White);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.logo{
+    margin-right: 70px;
+}
+
+.panel, .box-panel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    position: relative;
+    display: flex;
+}
+
+.links a img{
+    height: 7px;
+    width: 11px;
+    margin-left: 5px;
+}
+
+.links a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    text-decoration: none;
+    color: var(--Medium-Gray);
+}
+
+.links a:hover{
+    color: var(--Almost-Black);
+}
+
+.icon-arrow{
+    color: var(--Medium-Gray);
+}
+
+.icon-arrow:hover{
+    color: var(--Almost-Black);
+}
+
+.links div ul{
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 15px var(--Medium-Gray);
+    background: white;
+    list-style: none;
+}
+
+.position-features{
+    position: absolute;
+    left: -70px;
+    bottom: -150px;
+}
+
+.position-company{
+    position: absolute;
+    left: 100px;
+    bottom: -123px;
+}
+
+.links div ul li{
+    line-height: 30px;
+    color: var(--Medium-Gray);
+}
+
+.links div ul li:hover{
+    cursor: pointer;
+    color: var(--Almost-Black);
+}
+
+.links div ul li img{
+    margin-right: 10px;
+}
+
+.btn-login{
+    width: 100px;
+    height: 40px;
+    background: none;
+    border: none;
+    color: var(--Medium-Gray);
+    transition: .3s ease;
+    cursor: pointer;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+}
+
+.btn-login:hover{
+    color: var(--Almost-Black);
+}
+
+.btn-register{
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+    background: none;
+    border: 2px solid var(--Medium-Gray);
+    color: var(--Medium-Gray);
+    transition: .3s ease;
+    cursor: pointer;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+}
+
+.btn-register:hover{
+    border: 2px solid var(--Almost-Black);
+    color: var(--Almost-Black);
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    height: 80vh;
+}
+
+.section-about{
+    width: 60%;
+}
+
+.about{
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.about .title{
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 75px;
+    font-weight: 700;
+    color: var(--Almost-Black);
+}
+
+.about .p-about{
+    width: 80%;
+    margin-bottom: 30px;
+    line-height: 25px;
+    color: var(--Medium-Gray);
+}
+
+.about .btn-learn-more{
+    width: 130px;
+    height: 40px;
+    background-color: var(--Almost-Black);
+    border: 2px solid var(--Medium-Gray);
+    border-radius: 12px;
+    color: var(--Almost-White);
+    transition: .3s ease;
+    cursor: pointer;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+}
+
+.btn-learn-more:hover{
+    background: var(--Almost-White);
+    color: var(--Almost-Black);
+}
+
+.brands{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.brands img{
+    width: 80px;
+    margin-right: 20px;
+}
+
+.section-img{
+    width: 50%;
+}
+
+.section-img picture{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-desk{
+    width: 90%;
+}
+
+.btn-panel{
+    display: none;
+}
+
+.none{
+    display: none;
+}
+
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */

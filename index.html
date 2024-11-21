@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- link css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media-query.css">
+  <!-- link logic js -->
+<script src="./js/scripts.js" defer></script>   
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./images/logo.svg" alt="">
+      </div>
+      <div class="box-panel" id="panel-shadow">
+        <div class="panel" id="panel">
+          <div class="links">
+            <div>
+              <a id="features" href="#">Features 
+                <img id="iadF" class="down icon-arrow" src="./images/icon-arrow-down.svg">
+                <img id="iauF" class="up none" src="./images/icon-arrow-up.svg">
+              </a>
+              <ul class="position-features none" id="ulF">
+                <li>
+                  <img src="./images/icon-todo.svg">
+                  Todo List
+                </li>
+                <li>
+                  <img src="./images/icon-calendar.svg">
+                  Calendar
+                </li>
+                <li>
+                  <img src="./images/icon-reminders.svg">
+                  Reminders
+                </li>
+                <li>
+                  <img src="./images/icon-planning.svg">
+                  Planning
+                </li>
+              </ul>
+            </div>
+            <div>
+              <a  id="company" href="#">Company 
+                <img id="iadC" class="icon-arrow" src="./images/icon-arrow-down.svg">
+                <img id="iauC" class="icon-arrow none" src="./images/icon-arrow-up.svg">
+              </a>
+              <ul class="position-company none" id="ulC">
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </ul>
+            </div>
+            <a href="#">Careers</a>
+            <a href="#">About</a>
+          </div>
+          <div class="log">
+            <button class="btn-login">Login</button>
+            <button class="btn-register">Register</button>
+          </div>
+        </div>
+      </div>
+        <div class="box-btn-panel">
+        <button id="btn-panel" class="btn-panel">
+          <!-- BTN HAM -->
+          <i class="icon" id="open"><svg width="32" height="18" xmlns="http://www.w3.org/2000/svg"><g fill="#151515" fill-rule="evenodd"><path d="M0 0h32v2H0zM0 8h32v2H0zM0 16h32v2H0z"/></g></svg></i>
+          <!-- BTN CLOSE -->
+          <i class="icon none" id="close"><svg width="26" height="26" xmlns="http://www.w3.org/2000/svg"><g fill="#151515" fill-rule="evenodd"><path d="m2.393.98 22.628 22.628-1.414 1.414L.979 2.395z"/><path d="M.98 23.607 23.609.979l1.414 1.414L2.395 25.021z"/></g></svg></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="cont">
+    
+    <section class="section-about">
+      <div class="box-about">
+        <div class="about">
+          <p class="title">Make <br> remote work</p>
+          <p class="p-about">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+          <button class="btn-learn-more">Learn more</button>
+        </div>
+        <div class="brands">
+          <img src="./images/client-databiz.svg" alt="">
+          <img src="./images/client-audiophile.svg" alt="">
+          <img src="./images/client-meet.svg" alt="">
+          <img src="./images/client-maker.svg" alt="">
+        </div>
+    </div>
+  </section>
+
+  <section class="section-img">
+    <picture>
+      <source class="img-mobile" media="(max-width:500px)" srcset="./images/image-hero-mobile.png">
+      <img class="img-desk" src="./images/image-hero-desktop.png" alt="">
+    </picture>
+  </section>
+  
+</section>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Emcahell">Emmanuel Castro</a>.
+  </div> -->
+</body>
+</html>
